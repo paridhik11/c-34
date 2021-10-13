@@ -175,13 +175,14 @@ function draw()
   
   if(collide(fruit,star,20)==true){
     star.visible=false
-    greystars.scale=0.08
+    greystars.scale=0.02
     greystars.changeAnimation('1')
     
   }
 
 if(collide(fruit,star2,20)==true){
   star2.visible=false
+    greystars.scale=0.2
   greystars.changeAnimation('2')
 }
 }
